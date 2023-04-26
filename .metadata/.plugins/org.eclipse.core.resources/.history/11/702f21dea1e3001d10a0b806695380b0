@@ -1,0 +1,13 @@
+package com.xworkz.electricity.repository;
+
+import com.xworkz.electricity.dto.PoliceStationDTO;
+
+public class PoliceStationRepositoryImpl implements PoliceStationRepository {
+
+	@Override
+	public boolean save(PoliceStationDTO dto) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

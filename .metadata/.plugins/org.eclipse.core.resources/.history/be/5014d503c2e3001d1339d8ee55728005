@@ -1,0 +1,5 @@
+package com.xworkz.electricity.dto;
+
+public class MarriageDTO {
+
+}

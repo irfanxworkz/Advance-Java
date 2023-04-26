@@ -1,0 +1,5 @@
+package com.xworkz.electricity.constant;
+
+public enum ShowroomLocation {
+
+}

@@ -1,0 +1,41 @@
+package com.xworkz.electricity.service;
+
+import java.util.Set;
+
+import javax.validation.ConstraintViolation;
+import javax.validation.Validation;
+import javax.validation.Validator;
+import javax.validation.ValidatorFactory;
+
+import com.xworkz.electricity.dto.MarriageDTO;
+import com.xworkz.electricity.repository.MarriageRepository;
+
+public class MarriageServiceImpl implements MarriageService {
+
+	private MarriageRepository marriageRepository;
+
+	public MarriageServiceImpl(MarriageRepository marriageRepository) {
+		this.marriageRepository = marriageRepository;
+	}
+
+	@Override
+	public boolean validateAndThenSave(MarriageDTO dto) {
+		System.out.println("Running validate and save:" + dto);
+
+		ValidatorFactory factory = Validation.buildDefaultValidatorFactory();
+		Validator validator = factory.getValidator();
+		
+		Set<ConstraintViolation<MarriageDTO>> constraintViolations = validator.validate(dto);
+		System.out.println(constraintViolations.size());
+		
+		constraintViolations.forEach(cv -> System.out.println(cv.getPropertyPath() + " " + cv.getMessage()));
+		if (constraintViolations.isEmpty()) {
+			System.out.println("No Violations in Constraints");
+			return this.marriageRepository.save(dto);
+		}
+		
+		System.out.println("There exists violation and hence will not be saved");
+		return false;
+	}
+
+}

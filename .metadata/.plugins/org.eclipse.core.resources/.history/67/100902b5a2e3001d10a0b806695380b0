@@ -1,0 +1,13 @@
+package com.xworkz.electricity.service;
+
+import com.xworkz.electricity.dto.PoliceStationDTO;
+
+public class PoliceStationServiceImpl implements PoliceStationService {
+
+	@Override
+	public Boolean validateAndThenSave(PoliceStationDTO dto) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

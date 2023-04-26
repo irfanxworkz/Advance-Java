@@ -1,0 +1,13 @@
+package com.xworkz.electricity.repository;
+
+import com.xworkz.electricity.dto.AmbulanceDTO;
+
+public class AmbulanceRepositorympl implements AmbulanceRepository {
+
+	@Override
+	public boolean save(AmbulanceDTO dto) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

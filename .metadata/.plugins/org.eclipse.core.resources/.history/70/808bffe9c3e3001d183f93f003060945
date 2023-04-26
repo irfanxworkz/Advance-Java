@@ -1,0 +1,7 @@
+package com.xworkz.electricity.service;
+
+public interface AmbulanceService {
+
+	boolean save(AmbulanceDTO dto);
+
+}
