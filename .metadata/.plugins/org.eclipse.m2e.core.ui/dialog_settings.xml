@@ -13,8 +13,9 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="Project"/>
+			<item value="saloon"/>
 			<item value="glass"/>
+			<item value="Project"/>
 			<item value="Student"/>
 		</list>
 		<list key="version">
