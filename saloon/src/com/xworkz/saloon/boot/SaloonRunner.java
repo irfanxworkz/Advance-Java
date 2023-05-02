@@ -45,8 +45,6 @@ public class SaloonRunner {
 		System.out.println(applicationContext.getBean(Trimmer.class));
 		System.out.println("----------------------------------------------------------------");
 		
-	
-		
 	}
 
 }
