@@ -66,6 +66,11 @@ public class Cigarette {
 	public void setTabbacoQuantity(double tabbacoQuantity) {
 		this.tabbacoQuantity = tabbacoQuantity;
 	}
+	
+	public void order() {
+		System.out.println("invoked orger method from Cigarette class");
+	}
+	
 
 	@Override
 	public String toString() {

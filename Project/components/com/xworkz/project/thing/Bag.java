@@ -56,6 +56,11 @@ public class Bag {
 	public void setLock(boolean lock) {
 		this.lock = lock;
 	}
+	
+	public void order() {
+		System.out.println("invoked orger method From Bag Class.");
+	}
+	
 	@Override
 	public String toString() {
 		return "Bag [brand=" + brand + ", color=" + color + ", material=" + material + ", type=" + type + ", usedFor="

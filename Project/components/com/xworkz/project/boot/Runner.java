@@ -33,10 +33,14 @@ public class Runner {
 		System.out.println("====================================================================");
 		System.out.println("====================================================================");
 		
-		System.out.println(applicationContext.getBean(Cigarette.class));
+		Cigarette ref=applicationContext.getBean(Cigarette.class);
+		System.out.println(ref);
+		ref.order();
 		System.out.println("----------------------------------------------------------------");
 		
-		System.out.println(applicationContext.getBean(Bag.class));
+		Bag ref3=applicationContext.getBean(Bag.class);
+		System.out.println(ref3);
+		ref3.order();
 		System.out.println("----------------------------------------------------------------");
 		
 		System.out.println(applicationContext.getBean(Bottle.class));
@@ -65,10 +69,14 @@ public class Runner {
 		System.out.println(applicationContext.getBean(PowerBank.class));
 		System.out.println("----------------------------------------------------------------");
 		
-		System.out.println(applicationContext.getBean(Router.class));
+		Router ref1=applicationContext.getBean(Router.class);
+		System.out.println(ref1);
+		ref1.order();
 		System.out.println("----------------------------------------------------------------");
 		
-		System.out.println(applicationContext.getBean(Spray.class));
+		Spray ref2=applicationContext.getBean(Spray.class);
+		System.out.println(ref2);
+		ref2.order();
 		System.out.println("----------------------------------------------------------------");
 
 	}

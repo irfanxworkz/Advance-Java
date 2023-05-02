@@ -21,6 +21,9 @@ public class Router {
 	@Value("1800")
 	private int bill;
 	
-	
+
+	public void order() {
+		System.out.println("invoked orger method from Router class..");
+	}
 
 }

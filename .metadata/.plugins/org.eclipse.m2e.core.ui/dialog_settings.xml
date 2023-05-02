@@ -7,12 +7,17 @@
 	<section name="wizardPage">
 		<list key="groupId">
 			<item value="com.xworkz"/>
+			<item value="bean"/>
+			<item value="BeanAndComponent"/>
 			<item value="glass"/>
 			<item value="Student"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="project"/>
+			<item value="bean"/>
+			<item value="BeanAndComponent"/>
 			<item value="saloon"/>
 			<item value="glass"/>
 			<item value="Project"/>
