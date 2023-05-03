@@ -6,6 +6,7 @@
 <item elementID="=glass" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=saloon" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=project" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=AlbertMuseum" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1682627254621_4" label="horror" name="horror"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1682447787653_2" label="Window Working Set" name="Aggregate for window 1682447787653"/>
