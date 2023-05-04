@@ -1,7 +1,0 @@
-package com.xworkz.electricity.repository;
-
-public interface MarriageRepository {
-	
-	boolean save(MarriageDTO dto);
-
-}
