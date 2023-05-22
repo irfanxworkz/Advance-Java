@@ -5,14 +5,19 @@
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1682625971198_3" label="Spring" name="Spring">
 <item elementID="=saloon" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=ShoeShowroom" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Servers" type="4"/>
-<item elementID="=test" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=electricity" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=project" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=glass" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=AlbertMuseum" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=countryServlet" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1682627254621_4" label="horror" name="horror"/>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1684701831777_5" label="Dynamic Web Page" name="Dynamic Web Page">
+<item elementID="=test" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=countryServlet" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Servers" type="4"/>
+<item elementID="=inputForm" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1682447787653_2" label="Window Working Set" name="Aggregate for window 1682447787653"/>
+<mruList name="Dynamic Web Page"/>
 <mruList name="Spring"/>
 </workingSetManager>
