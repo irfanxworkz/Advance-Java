@@ -1,0 +1,21 @@
+@charset "ISO-8859-1";
+
+#header
+{
+font-size:40px;
+}
+.dark
+{
+color:red;
+}
+
+body{
+    margin-top: 50px ; /* Space from this element (entire page) and others*/
+    margin-left: 35px;
+    margin-right: 800px;
+    padding: 20px; /*space from content and border*/
+    border: solid green;
+    border-width: 4px;
+}
+
+h1{font-size:20pt; color:black}

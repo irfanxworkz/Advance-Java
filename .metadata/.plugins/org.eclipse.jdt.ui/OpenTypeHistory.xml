@@ -1,9 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy>
-    <typeInfo handle="=electricity/src=/optional=/true=/=/maven.pomderived=/true=/&lt;com.xworkz.electricity.repository{AmbulanceRepository.java[AmbulanceRepository" modifiers="513" timestamp="1682466114854"/>
-    <typeInfo handle="=ShoeShowroom/src=/optional=/true=/=/maven.pomderived=/true=/&lt;com.xworkz.showroom.repositry{PolishRepositry.java[PolishRepositry" modifiers="513" timestamp="1683196712317"/>
-    <typeInfo handle="=ShoeShowroom/src=/optional=/true=/=/maven.pomderived=/true=/&lt;com.xworkz.showroom.services{PolishServices.java[PolishServices" modifiers="513" timestamp="1683197198728"/>
-    <typeInfo handle="=ShoeShowroom/src=/optional=/true=/=/maven.pomderived=/true=/&lt;com.xworkz.showroom.repositry{SalesManagerRepositry.java[SalesManagerRepositry" modifiers="513" timestamp="1683200025944"/>
-    <typeInfo handle="=ShoeShowroom/src=/optional=/true=/=/maven.pomderived=/true=/&lt;com.xworkz.showroom.services{SockServices.java[SockServices" modifiers="513" timestamp="1683220055591"/>
-    <typeInfo handle="=ShoeShowroom/src=/optional=/true=/=/maven.pomderived=/true=/&lt;com.xworkz.showroom.repositry{SockRepositry.java[SockRepositry" modifiers="513" timestamp="1683220146371"/>
-</typeInfoHistroy>
+<typeInfoHistroy/>

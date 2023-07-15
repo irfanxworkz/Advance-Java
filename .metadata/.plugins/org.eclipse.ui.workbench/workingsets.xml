@@ -11,13 +11,36 @@
 <item elementID="=AlbertMuseum" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1682627254621_4" label="horror" name="horror"/>
-<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1684701831777_5" label="Dynamic Web Page" name="Dynamic Web Page">
-<item elementID="=test" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1684701831777_5" label="Servlet" name="Servlet">
 <item elementID="=countryServlet" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Servers" type="4"/>
+<item elementID="=test" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=foodShop" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=inputForm" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Servers" type="4"/>
+<item elementID="=bankServlet" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1685104712598_6" label="SpringMVC" name="SpringMVC">
+<item elementID="=ice" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Servers" type="4"/>
+<item elementID="=studentProject" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=school" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1685342033677_7" label="SpringMVC5ProjectController" name="SpringMVC5ProjectController">
+<item elementID="=ice" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=teacher" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=school" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Servers" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/school/pom.xml" type="1"/>
+<item elementID="=student" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1682447787653_2" label="Window Working Set" name="Aggregate for window 1682447787653"/>
-<mruList name="Dynamic Web Page"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1685342037643_8" label="Multiple Working Sets" name="Aggregate:SpringMVC:SpringMVC5ProjectController:">
+<workingSet IMemento.internal.id="SpringMVC"/>
+<workingSet IMemento.internal.id="SpringMVC5ProjectController"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1685359639863_9" label="Window Working Set" name="Aggregate for window 1685359639863"/>
+<mruList name="SpringMVC"/>
 <mruList name="Spring"/>
+<mruList name="Servlet"/>
+<mruList name="SpringMVC5ProjectController"/>
 </workingSetManager>
